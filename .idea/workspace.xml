@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98c2198e-840f-433a-b330-f8d762a428d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/weightloss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/add.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cal.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dash.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/exer.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/goal.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/hist.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/prof.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reg.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/weight.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/20240612_172646.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/20240612_172646_vShPPmF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/migrations/0002_alter_exercise_calories_burned_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/migrations/0003_remove_goalfood_user_remove_food_calories_eaten_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/static/weight/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/static/weight/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/add_exercise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/add_food.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/add_weight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/calories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/delete_exercise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/delete_food.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/delete_weight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/exercise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/exercise_history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/food_history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/goals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/trackweight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/update_exercise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/update_food.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/update_weight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/templates/weight/weight_history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weight/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weightloss/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weightloss/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weightloss/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weightloss/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weightloss/wsgi.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2ilDLWSEafG8aiFKZj6e2yqfdoJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.weightloss.executor": "Run",
+    "Python.manage.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Kico Gaming/PycharmProjects/weightloss/users/templates/users",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kico Gaming\PycharmProjects\weightloss\users\templates\users" />
+      <recent name="C:\Users\Kico Gaming\PycharmProjects\weightloss\weight\templates\weight" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kico Gaming\PycharmProjects\weightloss\img" />
+      <recent name="C:\Users\Kico Gaming\PycharmProjects\weightloss" />
+      <recent name="C:\Users\Kico Gaming\PycharmProjects\weightloss\weight" />
+      <recent name="C:\Users\Kico Gaming\PycharmProjects\weightloss\media" />
+      <recent name="C:\Users\Kico Gaming\PycharmProjects\weightloss\media\profile_pics" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="weightloss" type="Python.DjangoServer" factoryName="Django server">
+      <module name="weightloss" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="weightloss.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98c2198e-840f-433a-b330-f8d762a428d3" name="Changes" comment="" />
+      <created>1720056214327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720056214327</updated>
+      <workItem from="1720056215689" duration="93097000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weight/tests.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/weightloss$manage.coverage" NAME="manage Coverage Results" MODIFIED="1720056272177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

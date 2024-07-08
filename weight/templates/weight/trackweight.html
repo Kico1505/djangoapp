@@ -1,0 +1,58 @@
+{% extends "weight/base.html" %}
+{% block content %}
+    <a class="btn btn-info" href="{% url "weight-add-weight" %}" role="button" style="position: relative; top:10px; right:950px ">Add Weight </a>
+    <a class="btn btn-info" href="{% url "weight-view-weight" %}" role="button" style="position: relative; top:10px; right:950px ">View Weight History </a>
+    <div class="card" style="width: 20rem; top: 75px; left: 600px; float:left; text-align: center; background: #71a0b2" >
+        <div class="card-body" style="float: left;">
+            <h5 class="card-title">Current Weight</h5>
+            <p class="card-text">{{ weightcurrent }} lbs</p>
+        </div>
+    </div>
+    <div class="card" style="width: 20rem; top: 75px; left: 650px; float:left; text-align: center; background: #71a0b2" >
+        <div class="card-body" style="float: left;">
+            <h5 class="card-title">Goal Weight</h5>
+            <p class="card-text">{{ weightgoal }} lbs</p>
+        </div>
+    </div>
+    <div class="card" style="width: 20rem; top: 75px; left: 700px; float:left; text-align: center; background: #71a0b2" >
+        <div class="card-body" style="float: left;">
+            <h5 class="card-title">Lbs Remaining</h5>
+            <p class="card-text">{{ lbsleft }} Lbs</p>
+        </div>
+    </div>
+
+    <div style="width: 1000px; height: 1000px; position:relative; top:150px; left:600px;">
+        <h4 style="text-align: center">Weight Timeline</h4>
+        <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [ {% for label in weightdates %}
+                            "{{ label }}",
+                        {% endfor %}],
+                datasets: [
+                    {
+                        label: '# of Pounds',
+                        data: [ {% for data in weightamounts %}
+                                "{{ data }}",
+                            {% endfor %}],
+                        borderWidth: 1
+                    },
+                ]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+{% endblock content %}

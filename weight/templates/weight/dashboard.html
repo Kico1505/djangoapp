@@ -1,0 +1,108 @@
+{% extends "weight/base.html" %}
+{% block content %}
+    <div class="card" style="width: 20rem; top: 75px; left: 600px; float:left; text-align: center; background: #71a0b2" >
+        <div class="card-body" style="float: left;">
+            <h5 class="card-title">Daily Calorie Intake</h5>
+            <p class="card-text">{{ caloriesone }} Calories Consumed</p>
+        </div>
+    </div>
+    <div class="card" style="width: 20rem; top: 75px; left: 650px; float:left; text-align: center; background: #71a0b2" >
+        <div class="card-body" style="float: left;">
+            <h5 class="card-title">Weekly Calorie Intake</h5>
+            <p class="card-text">{{ total_weekly_calories }} Calories Consumed</p>
+        </div>
+    </div>
+    <div class="card" style="width: 20rem; top: 75px; left: 700px; float:left; text-align: center; background: #71a0b2" >
+        <div class="card-body" style="float: left;">
+            <h5 class="card-title">Lifetime Calorie Intake</h5>
+            <p class="card-text">{{ total_calories }} Calories Consumed</p>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <div class="card" style="width: 20rem; top: 75px; left: 600px; float:left; text-align: center; background: #71a0b2" >
+        <div class="card-body" style="float: left;">
+            <h5 class="card-title">Daily Calorie Burn</h5>
+            <p class="card-text">{{ caloriesonee }} Calories Burned</p>
+        </div>
+    </div>
+    <div class="card" style="width: 20rem; top: 75px; left: 650px; float:left; text-align: center; background: #71a0b2" >
+        <div class="card-body" style="float: left;">
+            <h5 class="card-title">Weekly Calorie Burn</h5>
+            <p class="card-text">{{ total_weekly_caloriese }} Calories Burned</p>
+        </div>
+    </div>
+    <div class="card" style="width: 20rem; top: 75px; left: 700px; float:left; text-align: center; background: #71a0b2" >
+        <div class="card-body" style="float: left;">
+            <h5 class="card-title">Lifetime Calorie Burn</h5>
+            <p class="card-text">{{ total_caloriese }} Calories Burned</p>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <div style="position: absolute;">
+        <div class="card" style="width: 20rem; top: 75px; left: 600px; float:left; text-align: center; background: #71a0b2" >
+            <div class="card-body" style="float: left;">
+                <h5 class="card-title">Current Weight</h5>
+                <p class="card-text">{{ weightcurrent }} lbs</p>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem; top: 75px; left: 650px; float:left; text-align: center; background: #71a0b2" >
+            <div class="card-body" style="float: left;">
+                <h5 class="card-title">Goal Weight</h5>
+                <p class="card-text">{{ weightgoal }} lbs</p>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem; top: 75px; left: 700px; float:left; text-align: center; background: #71a0b2" >
+            <div class="card-body" style="float: left;">
+                <h5 class="card-title">Lbs Remaining</h5>
+                <p class="card-text">{{ lbsleft }} Lbs</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <div style="width: 1000px; height: 1000px; position:relative; top:250px; left:600px;">
+        <h4 style="text-align: center">Weekly Calorie Intake</h4>
+        <canvas id="myChart"></canvas>
+
+       <script>
+            const ctx = document.getElementById('myChart');
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ["{{ dayseven }}", "{{ daysix }}", "{{ dayfive }}", "{{ dayfour }}", "{{ daythree }}", "{{ daytwo }}", "{{ dayone }}" ],
+                    datasets: [
+                        {
+                            label: '# of Calories Consumed',
+                            data: [{{ calorieseven }}, {{ caloriessix }}, {{ caloriesfive }}, {{ caloriesfour }}, {{ caloriesthree }}, {{ caloriestwo }}, {{ caloriesone }}],
+                            borderWidth: 1
+                        },
+                        {
+                            label: '# of Calories Under Limit',
+                            data:[{{ caloriegoal }},{{ caloriegoal }},{{ caloriegoal }},{{ caloriegoal }},{{ caloriegoal }},{{ caloriegoal }},{{ caloriegoal }}],
+                            borderWidth: 1
+                        },
+                        {
+                            label: '# of Calories Burned',
+                            data: [{{ caloriesevene }}, {{ caloriessixe }}, {{ caloriesfivee }}, {{ caloriesfoure }}, {{ caloriesthreee }}, {{ caloriestwoe }}, {{ caloriesonee }}],
+                            borderWidth: 1
+                        },
+                        {
+                            label: '# of Calories Burned Goal',
+                            data:[{{ caloriegoale }},{{ caloriegoale }},{{ caloriegoale }},{{ caloriegoale }},{{ caloriegoale }},{{ caloriegoale }},{{ caloriegoale }}],
+                            borderWidth: 1
+                        }
+                    ]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+    </div>
+{% endblock content %}
